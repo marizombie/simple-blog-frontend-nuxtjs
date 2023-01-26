@@ -3,7 +3,7 @@ export const state = () => ({
     total: [],
     next: [],
     previous: [],
-    current_page: 0
+    current_page: 0,
 })
 
 export const mutations = {
@@ -34,9 +34,9 @@ export const actions = {
         let current_page = query_page !== undefined ? query_page : '1';
 
         commit('SET_POSTS', data.results)
-        commit('SET_TOTAL', Math.ceil(data.count / 2))
+        commit('SET_TOTAL', Math.ceil(data.count / 6))
         commit('SET_NEXT', next)
         commit('SET_PREVIOUS', previous)
         commit('SET_CURRENT_PAGE', Number(current_page))
-    }
+    },
 }
