@@ -5,7 +5,7 @@
         <label for="inputUsername" class="sr-only">User name</label>
         <input id="inputUsername" class="form-control" placeholder="User name" required="" v-model="register.username">
         <label for="inputPassword" class="sr-only">Password</label>
-        <input type="password" id="inputPassword" class="form-control mt-2" placeholder="Пароль" required="" v-model="register.password">
+        <input type="password" id="inputPassword" class="form-control mt-2" placeholder="Password" required="" v-model="register.password">
         <label for="ReInputPassword" class="sr-only">Repeat password</label>
         <input type="password" id="ReInputPassword" class="form-control mt-2" placeholder="Repeat password" required="" v-model="register.password_verifier">
         <button class="btn mt-2 btn-lg btn-primary btn-block" type="submit">Sign up</button>

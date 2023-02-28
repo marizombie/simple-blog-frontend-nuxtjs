@@ -2,9 +2,9 @@
     <footer class="footer">
       <div class="container">
         <p class="float-right">
-          <a href="#">Наверх</a>
+          <a href="#">Up</a>
         </p>
-        <span class="text-muted">Агентство по разработке потрясных сайтов на bootstrap, drf и nuxtJS. А это просто наш блог.</span>
+        <span class="text-muted">Your footer</span>
       </div>
     </footer>
   </template>
